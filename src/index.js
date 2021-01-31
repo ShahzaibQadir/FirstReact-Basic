@@ -5,9 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+     <div><App name="Shahzaib" age ={25}/></div>,
   document.getElementById('root')
 );
 
